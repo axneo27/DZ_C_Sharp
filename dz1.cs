@@ -108,7 +108,6 @@ namespace ProgramNamespace
     }
 
     static void ex6() {
-        //farenheit to celsius and celsius to farenheit
         Console.Write("Input temperature: ");
         double t = Convert.ToDouble(Console.ReadLine());
         Console.Write("1 - F -> C, 2 - C -> F: ");
