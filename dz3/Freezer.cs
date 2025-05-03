@@ -1,4 +1,4 @@
-﻿namespace dz3 
+namespace dz3 
 {
     public partial class Freezer
     {
@@ -27,7 +27,7 @@
             return _currentLoad;
         }
 
-        public void ChangeTemperature(ref Freezer freezer, int temperature)
+        public void ChangeTemperature(Freezer freezer, ref int temperature)
         {
             if (temperature < _minTemperature || temperature > _maxTemperature)
             {
