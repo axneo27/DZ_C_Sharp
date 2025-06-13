@@ -1,6 +1,4 @@
 
-using System.Runtime.InteropServices.Marshalling;
-
 namespace dz9 {
 
     // ex2
